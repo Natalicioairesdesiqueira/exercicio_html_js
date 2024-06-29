@@ -12,7 +12,7 @@ form.addEventListener('submit', function(e) {
     const mensagemSucesso = document.querySelector('.mensagenVeradeiro');
     const mensagemErro = document.querySelector('.mensagenFalso');
 
-    const textoSucesso = `O valo <b>${valCampoB}</b> é maior que o valor <b>${valCampoA}</b>`;
+    const textoSucesso = `O valor <b>${valCampoB}</b> é maior que o valor <b>${valCampoA}</b>`;
     const textoErro = `ERRO! O valor <b>${valCampoB}</b> é menor que <b>${valCampoA}</b>`;
 
 
